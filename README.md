@@ -1,19 +1,19 @@
 # Developer Planner
 
-# Tech Stack
+## Tech Stack
 
 * PHP 8.2
 * Laravel 11.9
 * MySQL 8.0
-* Nginx 
+* Nginx
 * Docker 27.0.3
 * Docker Compose 2.28.1
 
-# Installation 
+## Installation
 
 Note: If you do not have docker daemon, install and run before.
 
-1. Clone Repository and create local environment. 
+1. Clone Repository and create local environment.
 
 ```shell
 git clone https://github.com/akcauser/developer-planner.git
@@ -52,22 +52,14 @@ php artisan app:fetch-mock-data
 
 ![screenshot](./screenshots/welcome.png)
 
-# Tests
+## Tests
 
-Run command in app container to run tests. 
+Run command in app container to run tests.
 
 ```shell
 php artisan test 
 ```
 
-# Contributing Guide
+## Contributing Guide
 
 * [Check Contributing Guide](./CONTRIBUTING.md).
-
-
-
-
-
-
-
-
