@@ -50,6 +50,8 @@ php artisan app:fetch-mock-data
 
 6. Open http://127.0.0.1:8080
 
+![screenshot](./screenshots/welcome.png)
+
 # Tests
 
 Run command in app container to run tests. 
