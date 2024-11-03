@@ -34,9 +34,11 @@ docker ps
 docker exec -it developer-planner-app-1 bash
 ```
 
-4. Run database migrations
+4. Install vendors, generate app key and run database migrations
 
 ```shell
+composer install
+php artisan key:generate
 php artisan migrate
 ```
 

@@ -25,6 +25,3 @@ ADD . /var/www
 RUN chown -R www-data:www-data /var/www
 
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
-RUN composer install
-
-RUN php artisan key:generate
