@@ -42,7 +42,13 @@ php artisan key:generate
 php artisan migrate
 ```
 
-5. Open http://127.0.0.1:8080
+5. Fetch Mock Data
+
+```shell
+php artisan app:fetch-mock-data
+```
+
+6. Open http://127.0.0.1:8080
 
 # Tests
 
