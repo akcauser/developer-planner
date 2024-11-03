@@ -28,6 +28,10 @@ docker-compose up -d
 docker ps
 ```
 
+* Expected Containers
+
+![containers](./screenshots/containers.png)
+
 3. Enter app container
 
 ```shell
@@ -63,3 +67,5 @@ php artisan test
 ## Contributing Guide
 
 * [Check Contributing Guide](./CONTRIBUTING.md).
+
+completed
