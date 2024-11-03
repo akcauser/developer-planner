@@ -11,8 +11,8 @@
 <body>
     @foreach($solutions as $key => $solution)
     <h1></h1>
-    <table class="table table-striped table-hover text-center table-bordered">
-        <tr>
+    <table class="table table-hover text-center table-bordered">
+        <tr class="table-success">
             <th colspan="2">
                 {{ $key }} <br>
                 <strong>Elapsed Time:</strong> {{ $solution['elapsedTime'] }} hours 
