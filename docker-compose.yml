@@ -40,9 +40,3 @@ services:
             - "8080:80"
         links:
             - app
-    composer:
-        restart: 'no'
-        image: composer:latest
-        command: ['install']
-        volumes:
-            - .:/app
